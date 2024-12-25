@@ -36,3 +36,118 @@
     transform: rotate(360deg);
   }
 }
+./* Set the background color of the entire page */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the main app container */
+.App {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* White background for the container */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h2 {
+  color: #4CAF50; /* Green color for the title */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Style the form and input fields */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Text field styling */
+.MuiTextField-root {
+  background-color: #f9f9f9; /* Light background for text fields */
+  border-radius: 5px;
+}
+
+/* Button styling */
+button {
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* Primary button (Add Recipe) */
+.MuiButton-containedPrimary {
+  background-color: #4CAF50; /* Green background */
+  color: white;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Secondary button (Edit and Save) */
+.MuiButton-containedSecondary {
+  background-color: #2196F3; /* Blue background */
+  color: white;
+}
+
+.MuiButton-containedSecondary:hover {
+  background-color: #1e88e5; /* Darker blue on hover */
+}
+
+/* Delete button styling */
+.MuiButton-containedError {
+  background-color: #f44336; /* Red background */
+  color: white;
+}
+
+.MuiButton-containedError:hover {
+  background-color: #e53935; /* Darker red on hover */
+}
+
+/* Recipe list styling */
+.recipe-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Styling for each recipe item */
+.MuiListItem-root {
+  background-color: #fff;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* List Item Avatar style (if needed) */
+.MuiListItemAvatar-root {
+  margin-right: 15px;
+}
+
+/* Text fields and content inside the recipe list */
+.MuiListItemText-root {
+  color: #333; /* Dark text for contrast */
+}
+
+/* Hover effect for recipe items */
+.MuiListItem-root:hover {
+  background-color: #e0f7fa; /* Light blue hover effect */
+  transform: scale(1.02); /* Slight scale effect on hover */
+  transition: all 0.3s ease;
+}
+
+/* Styling for recipe description */
+.MuiListItemText-secondary {
+  font-size: 0.9rem;
+  color: #777; /* Lighter text for description */
+}
